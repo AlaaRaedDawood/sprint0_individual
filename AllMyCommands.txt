@@ -1,0 +1,45 @@
+$ git config --global user.name "Alaa"
+
+$ git config --global user.email "alaa.dawood@student.guc.edu.eg.com"
+
+$ cd Desktop
+
+$ cd aaa
+
+$ git init
+
+$ git add "*.txt"
+
+$ git commit -m "added 3 files"
+
+$ git rm "3.1 Git Branching - Branches in a Nutshell.txt"
+
+$ git commit -m "deleted 3.1 Git Branching - Branches in a Nutshell.txt"
+
+$ git checkout HEAD^ '3.1 Git Branching - Branches in a Nutshell.txt'
+
+$ git commit -m "restored 3.1 Git Branching - Branches in a Nutshell.txt"
+
+$ git remote add origin https://github.com/AlaaRaedDawood/sprint0_individual.git
+
+$ git push origin master
+
+
+$ git add "README.md"
+
+$ git commit -m "add READ.md to ReadMe branch"
+
+$ git add "README.md"
+
+$ git commit -m "add READ.md to ReadMe branch"
+
+$ git checkout master
+
+$ git merge ReadMe
+
+$ git add 'AllMyCommands.txt'
+
+$ git commit -m 'added AllMyCommands.txt to the master branch'
+
+$ git push origin master
+
